@@ -51,6 +51,7 @@ a{
     float: left;
 }
 .msj{
+    margin: auto;
     text-align: center;
     visibility: hidden;
 }
@@ -68,4 +69,7 @@ a{
 }
 .disappear{
     display:none;
+}
+.invisible{
+    visibility: hidden;
 }
