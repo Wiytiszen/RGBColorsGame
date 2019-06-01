@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    background: #232323;
+    width: 100vw;
+}
+.banner{
+    background:blue;
+    width:100%;
+    padding: 10px;
+}
+.bannerTitle{
+    max-width: 600px;
+    margin:20px auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+div h1{
+    font-size: 3em;
+}
+.secondBar{
+    width: 100%;
+    background: blueviolet;  
+    overflow: auto;
+}
+.buttons{
+    color:white;
+    max-width :600px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+.btn{
+    float: right;
+    padding: 10px;
+
+}
+.btn:hover{
+    background: grey;
+    opacity: 0.5;
+}
+a{
+    text-decoration:none;
+    color: white;
+}
+.btn:first-child{
+    float: left;
+}
+.msj{
+    text-align: center;
+    visibility: hidden;
+}
+.container{
+    max-width:600px;
+    margin : 20 auto;
+}
+.square{
+    width: 30%;
+    float: left;
+    margin: 1.66%;
+    padding-bottom:30%; 
+    background-color : blue;
+    border-radius: 10px;
+}
+.disappear{
+    display:none;
+}
